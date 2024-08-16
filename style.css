@@ -1,0 +1,208 @@
+body {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  
+  .fa-solid{
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+  
+  }
+  .animation{
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 300px ;
+    height: 300px ;
+    z-index: 1;
+    left: 120px;
+  }
+  .l-animation{
+    position: absolute;
+    width: 150px ;
+    height: 150px ;
+    z-index: 1;
+    display: none;
+    bottom: 80px ;
+    left: 180px ;
+  }
+  
+  .section1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle,rgb(238, 238, 238) 0%, rgb(95, 95, 95) 100%) ;
+  
+  }
+  .error{
+    background-color:transparent;
+    color: rgb(255, 106, 106);
+    border: none;
+    outline: none;
+    padding-bottom: 10px !important;
+    padding-top: 0px !important;
+    padding-left: 15px !important ;
+  }
+  .sign-up-box {
+    width: 540px;
+    border-radius: 30px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.527),rgba(255, 255, 255, 0.87)), url(img/pngegg\ \(1\).png) no-repeat center center / cover;
+    filter: drop-shadow(0px 0px 2px  rgb(59, 59, 59));
+  }
+  .sign-up-box input {
+    display: block;
+    width: 350px;
+    margin: 6px auto;
+    border-radius: 20px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    margin-top: -9px;
+  
+  }
+  .sign-up-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+  }
+  
+  .all-input > h3 {
+    font-size: 30px;
+    filter: drop-shadow(0px 0px 1px rgb(51, 50, 50));
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    font-weight: 700;
+    margin-bottom: 30px ;
+    color: white;
+  }
+  
+  .buttn {
+    border-radius: 20px;
+    padding: 6px 1px;
+    outline: none;
+    border: none;
+    color: white;
+    background: radial-gradient(circle, rgb(56, 56, 56) 0%, rgb(146, 134, 144) 100%) !important;
+      width: 250px;
+  }
+  .buttn:hover {
+    background: radial-gradient(circle,rgb(146, 134, 144) 0%, rgb(56, 56, 56) 100%) !important;}
+  
+  .or {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px;
+  }
+  
+  a {
+    color: rgb(122, 122, 122) !important;
+    text-decoration: none !important;
+    font-weight: 700;
+  }
+  a:hover {
+    text-decoration: underline !important;
+    color: rgb(0, 0, 206) !important;
+  }
+  
+  /* log in */
+  body {
+    padding: 0%;
+    margin: 0%;
+  }
+  .section2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle,rgb(238, 238, 238) 0%, rgb(95, 95, 95) 100%) ;
+  }
+  
+  .login-box {
+    width: 500px;
+    border-radius: 30px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.527),rgba(255, 255, 255, 0.87)), url(img/pngegg\ \(1\).png) no-repeat center center / cover;
+    filter: drop-shadow(0px 0px 2px rgb(59, 59, 59));
+  }
+  .l-label{
+    font-weight: 700;
+    padding-bottom: 2px !important;
+  
+  }
+  .login-box input {
+    display: block;
+    width: 350px;
+    margin: -1px auto;
+    border-radius: 20px;
+    padding: 4px 8px;
+    outline: none;
+    border: none;
+  }
+  .l-error{
+    background-color:transparent;
+    color: rgb(255, 136, 136);
+    border: none;
+    outline: none;
+    padding-bottom: 10px !important;
+    padding-top: 0px !important;
+    padding-left: 15px !important ;
+  }
+  .login-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+  }
+  
+  .login-input > h3 {
+    font-size: 30px;
+    filter: drop-shadow(0px 0px 1px rgb(51, 50, 50));
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    font-weight: 700;
+    margin-bottom: 30px ;
+    color: white;
+  }
+  
+  
+  #section2 {
+    display: none;
+  }
+  
+  
+  /* section body  */
+  .section3 {
+    height: 100vh;
+  }
+  .kaban {
+  color: white ;
+    font-weight: 800;
+    margin: 10px 0px ;
+  }
+  .main-body {
+    background-color: rgb(218, 218, 218);
+    height: inherit;
+    border: 2px solid transparent;
+  }
+  .main-body > .row > .col {
+    margin: 20px 10px;
+    border-radius: 10px;
+    flex-direction: column ;
+  }
+  
+  

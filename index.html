@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Board</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3e83da74ef.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+    <div class="section1 container-xxl" id="section1">
+        <div class="sign-up-box">
+            <div class="all-input">
+                <div class="animation" id="register-ani"></div>
+                <h3>Sign-up</h3>
+                <form onsubmit="return false;">
+
+
+                    <input id="s-username" placeholder="Username" type="text" onfocus="onFocus()" />
+                    <input type="text"  class="error"  disabled id="error1">
+                    
+                    <input id="s-email" type="email" placeholder="Email" onfocus="onFocus()"/>
+                    <input type="text"  class="error"  disabled id="error2">
+                    
+                    <input id="s-password" type="password" placeholder="Password"  onfocus="onFocus()"/>
+                    <input type="text"  class="error" disabled id="error3">
+                    
+                    <div class="sign-up-text">
+                        <button class="buttn" onclick="signUp()">Sign up</button>
+                        <p class="or">or</p>
+                        <p>
+                            Already have an account?<span><a id="signup" href="#login" onclick="switchToLogin()">Log in</a></span>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- login section -->
+    <div class="section2 container-xxl" id="section2">
+        <div class="login-box">
+            <div class="login-input">
+                <h3>Log in</h3>
+                <div class="l-animation" id="login-ani"></div>
+                <form onsubmit="return false;">
+                    
+                    <input id="email-login" type="email" placeholder="Email"  onfocus="onFocusLogin()" />
+                    <input type="text"  class="l-error"  disabled  id="l-error1">
+
+                    <input id="password-login" placeholder="Password" type="password" onfocus="onFocusLogin()"/>
+                    <input type="text"  class="l-error" disabled  id="l-error2">
+
+                    
+                    <div class="login-text">
+                        <button class="buttn" onclick="logInn()">Log in</button>
+                        <p class="or">or</p>
+                        <p>
+                            Create new account
+                            <span><a id="login" href="#signup" onclick="switchToSign()">Sign-up</a></span>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
